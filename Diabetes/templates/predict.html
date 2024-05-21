@@ -1,36 +1,14 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Prediction</title>
-    <style>
-        .main{
-            position: fixed;
-            top: 140px;
-            left: 410px;
-            width: 550px;
-            background-color:#ffffff;
-            border-radius: 10px;
-            align-items: center;
-            padding: 5%;
-        }
-        h1{
-            color: #0086b3;
-            font-size: 30px;
-            font-weight: bold;
-        }
-        input[type=submit]{
-            background-color: #4dc3ff;
-            border: 2px;
-            color: white;
-            padding: 8px 16px;
-            cursor: pointer;
-            margin-top: 15px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles_predict.css"> <!-- Link to your CSS file -->
 </head>
-<body bgcolor="#1c2e4a">
-    <div align='center' class = "main">
+<body>
+    <div class="main">
         <h1>Please enter the following information</h1>
         <form action="result">
             <table>
@@ -70,7 +48,7 @@
             <input type="submit">
         </form>
         <br>
-        Result:{{result2}}
+        Result: {{result2}}
     </div>
 </body>
 </html>
